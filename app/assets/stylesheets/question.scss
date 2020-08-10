@@ -1,0 +1,53 @@
+// Place all the styles related to the question controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+    background: linear-gradient(#147EFF, #0F67DA);
+  }
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+div {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-size: 8px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
